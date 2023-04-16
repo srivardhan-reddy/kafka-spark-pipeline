@@ -1,0 +1,44 @@
+[2023-03-28T15:17:24.460-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: air_quality_pipeline.run_producer manual__2023-03-28T19:17:21.024294+00:00 [queued]>
+[2023-03-28T15:17:24.470-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: air_quality_pipeline.run_producer manual__2023-03-28T19:17:21.024294+00:00 [queued]>
+[2023-03-28T15:17:24.470-0400] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T15:17:24.470-0400] {taskinstance.py:1283} INFO - Starting attempt 1 of 2
+[2023-03-28T15:17:24.470-0400] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T15:17:24.479-0400] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): run_producer> on 2023-03-28 19:17:21.024294+00:00
+[2023-03-28T15:17:24.485-0400] {standard_task_runner.py:55} INFO - Started process 52222 to run task
+[2023-03-28T15:17:24.489-0400] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'air_quality_pipeline', 'run_producer', 'manual__2023-03-28T19:17:21.024294+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/pipeline.py', '--cfg-path', '/var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T/tmppd699asg']
+[2023-03-28T15:17:24.490-0400] {standard_task_runner.py:83} INFO - Job 63: Subtask run_producer
+[2023-03-28T15:17:24.529-0400] {task_command.py:388} INFO - Running <TaskInstance: air_quality_pipeline.run_producer manual__2023-03-28T19:17:21.024294+00:00 [running]> on host srivardhans-air.starry-inc.net
+[2023-03-28T15:17:24.565-0400] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yourname
+AIRFLOW_CTX_DAG_ID=air_quality_pipeline
+AIRFLOW_CTX_TASK_ID=run_producer
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-28T19:17:21.024294+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-28T19:17:21.024294+00:00
+[2023-03-28T15:17:24.567-0400] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T
+[2023-03-28T15:17:24.567-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 "/Users/srivardhan/Desktop/Masters/Masters Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"']
+[2023-03-28T15:17:24.577-0400] {subprocess.py:86} INFO - Output:
+[2023-03-28T15:17:45.716-0400] {subprocess.py:93} INFO - Fetching Data from Purple Air sensors
+[2023-03-28T15:17:45.722-0400] {subprocess.py:93} INFO - Sending sensor data : 128679
+[2023-03-28T15:17:45.723-0400] {subprocess.py:93} INFO - Sending sensor data : 42145
+[2023-03-28T15:17:45.724-0400] {subprocess.py:93} INFO - Sending sensor data : 103092
+[2023-03-28T15:17:45.725-0400] {subprocess.py:93} INFO - Sending sensor data : 33861
+[2023-03-28T15:17:45.727-0400] {subprocess.py:93} INFO - Sending sensor data : 72009
+[2023-03-28T15:17:45.729-0400] {subprocess.py:93} INFO - Sending sensor data : 149716
+[2023-03-28T15:17:45.729-0400] {subprocess.py:93} INFO - Sending sensor data : 147691
+[2023-03-28T15:17:45.730-0400] {subprocess.py:93} INFO - Sending sensor data : 120351
+[2023-03-28T15:17:45.731-0400] {subprocess.py:93} INFO - Sending sensor data : 158823
+[2023-03-28T15:17:45.732-0400] {subprocess.py:93} INFO - Sending sensor data : 142906
+[2023-03-28T15:17:45.733-0400] {subprocess.py:93} INFO - Sending sensor data : 133099
+[2023-03-28T15:17:45.734-0400] {subprocess.py:93} INFO - Sending sensor data : 103358
+[2023-03-28T15:17:45.735-0400] {subprocess.py:93} INFO - Sending sensor data : 158823
+[2023-03-28T15:17:45.735-0400] {subprocess.py:93} INFO - Sending sensor data : 137008
+[2023-03-28T15:17:45.736-0400] {subprocess.py:93} INFO - Sending sensor data : 128591
+[2023-03-28T15:17:45.737-0400] {subprocess.py:93} INFO - Sending sensor data : 131379
+[2023-03-28T15:17:45.750-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-03-28T15:17:45.770-0400] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=air_quality_pipeline, task_id=run_producer, execution_date=20230328T191721, start_date=20230328T191724, end_date=20230328T191745
+[2023-03-28T15:17:45.783-0400] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-03-28T15:17:45.802-0400] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check

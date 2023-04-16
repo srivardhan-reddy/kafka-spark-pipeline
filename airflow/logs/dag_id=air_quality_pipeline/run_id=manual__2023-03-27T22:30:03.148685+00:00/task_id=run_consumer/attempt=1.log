@@ -1,0 +1,235 @@
+[2023-03-27T18:30:42.134-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: air_quality_pipeline.run_consumer manual__2023-03-27T22:30:03.148685+00:00 [queued]>
+[2023-03-27T18:30:42.141-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: air_quality_pipeline.run_consumer manual__2023-03-27T22:30:03.148685+00:00 [queued]>
+[2023-03-27T18:30:42.141-0400] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-27T18:30:42.141-0400] {taskinstance.py:1283} INFO - Starting attempt 1 of 2
+[2023-03-27T18:30:42.141-0400] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-27T18:30:42.152-0400] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): run_consumer> on 2023-03-27 22:30:03.148685+00:00
+[2023-03-27T18:30:42.160-0400] {standard_task_runner.py:55} INFO - Started process 10158 to run task
+[2023-03-27T18:30:42.164-0400] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'air_quality_pipeline', 'run_consumer', 'manual__2023-03-27T22:30:03.148685+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/pipeline.py', '--cfg-path', '/var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T/tmphp4__6ns']
+[2023-03-27T18:30:42.165-0400] {standard_task_runner.py:83} INFO - Job 30: Subtask run_consumer
+[2023-03-27T18:30:42.203-0400] {task_command.py:388} INFO - Running <TaskInstance: air_quality_pipeline.run_consumer manual__2023-03-27T22:30:03.148685+00:00 [running]> on host srivardhans-air.starry-inc.net
+[2023-03-27T18:30:42.238-0400] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yourname
+AIRFLOW_CTX_DAG_ID=air_quality_pipeline
+AIRFLOW_CTX_TASK_ID=run_consumer
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-27T22:30:03.148685+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-27T22:30:03.148685+00:00
+[2023-03-27T18:30:42.239-0400] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T
+[2023-03-27T18:30:42.240-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 "/Users/srivardhan/Desktop/Masters/Masters Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/consumer.py"']
+[2023-03-27T18:30:42.250-0400] {subprocess.py:86} INFO - Output:
+[2023-03-27T18:30:54.230-0400] {subprocess.py:93} INFO - 23/03/27 18:30:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-03-27T18:30:54.310-0400] {subprocess.py:93} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2023-03-27T18:30:54.311-0400] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2023-03-27T18:30:54.311-0400] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2023-03-27T18:30:56.902-0400] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 8) / 8]                                                                                23/03/27 18:30:56 WARN Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+[2023-03-27T18:30:57.973-0400] {subprocess.py:93} INFO - Connecting to consumer ...
+[2023-03-27T18:30:57.975-0400] {subprocess.py:93} INFO - Start of kafka session
+[2023-03-27T18:30:57.975-0400] {subprocess.py:93} INFO - No messages received, stopping consumer
+[2023-03-27T18:30:57.976-0400] {subprocess.py:93} INFO - Start of spark session
+[2023-03-27T18:30:57.976-0400] {subprocess.py:93} INFO - Start of spark session
+[2023-03-27T18:30:57.976-0400] {subprocess.py:93} INFO - root
+[2023-03-27T18:30:57.976-0400] {subprocess.py:93} INFO -  |-- _corrupt_record: string (nullable = true)
+[2023-03-27T18:30:57.976-0400] {subprocess.py:93} INFO -  |-- api_version: string (nullable = true)
+[2023-03-27T18:30:57.977-0400] {subprocess.py:93} INFO -  |-- data_time_stamp: long (nullable = true)
+[2023-03-27T18:30:57.977-0400] {subprocess.py:93} INFO -  |-- sensor: struct (nullable = true)
+[2023-03-27T18:30:57.977-0400] {subprocess.py:93} INFO -  |    |-- 0.3_um_count: long (nullable = true)
+[2023-03-27T18:30:57.977-0400] {subprocess.py:93} INFO -  |    |-- 0.3_um_count_a: long (nullable = true)
+[2023-03-27T18:30:57.977-0400] {subprocess.py:93} INFO -  |    |-- 0.3_um_count_b: long (nullable = true)
+[2023-03-27T18:30:57.977-0400] {subprocess.py:93} INFO -  |    |-- 0.5_um_count: long (nullable = true)
+[2023-03-27T18:30:57.978-0400] {subprocess.py:93} INFO -  |    |-- 0.5_um_count_a: long (nullable = true)
+[2023-03-27T18:30:57.978-0400] {subprocess.py:93} INFO -  |    |-- 0.5_um_count_b: long (nullable = true)
+[2023-03-27T18:30:57.978-0400] {subprocess.py:93} INFO -  |    |-- 1.0_um_count: long (nullable = true)
+[2023-03-27T18:30:57.978-0400] {subprocess.py:93} INFO -  |    |-- 1.0_um_count_a: long (nullable = true)
+[2023-03-27T18:30:57.978-0400] {subprocess.py:93} INFO -  |    |-- 1.0_um_count_b: long (nullable = true)
+[2023-03-27T18:30:57.979-0400] {subprocess.py:93} INFO -  |    |-- 10.0_um_count: long (nullable = true)
+[2023-03-27T18:30:57.979-0400] {subprocess.py:93} INFO -  |    |-- 10.0_um_count_a: long (nullable = true)
+[2023-03-27T18:30:57.979-0400] {subprocess.py:93} INFO -  |    |-- 10.0_um_count_b: long (nullable = true)
+[2023-03-27T18:30:57.979-0400] {subprocess.py:93} INFO -  |    |-- 2.5_um_count: long (nullable = true)
+[2023-03-27T18:30:57.979-0400] {subprocess.py:93} INFO -  |    |-- 2.5_um_count_a: long (nullable = true)
+[2023-03-27T18:30:57.979-0400] {subprocess.py:93} INFO -  |    |-- 2.5_um_count_b: long (nullable = true)
+[2023-03-27T18:30:57.980-0400] {subprocess.py:93} INFO -  |    |-- 5.0_um_count: long (nullable = true)
+[2023-03-27T18:30:57.980-0400] {subprocess.py:93} INFO -  |    |-- 5.0_um_count_a: long (nullable = true)
+[2023-03-27T18:30:57.980-0400] {subprocess.py:93} INFO -  |    |-- 5.0_um_count_b: long (nullable = true)
+[2023-03-27T18:30:57.980-0400] {subprocess.py:93} INFO -  |    |-- altitude: long (nullable = true)
+[2023-03-27T18:30:57.980-0400] {subprocess.py:93} INFO -  |    |-- analog_input: double (nullable = true)
+[2023-03-27T18:30:57.981-0400] {subprocess.py:93} INFO -  |    |-- channel_flags: long (nullable = true)
+[2023-03-27T18:30:57.981-0400] {subprocess.py:93} INFO -  |    |-- channel_flags_auto: long (nullable = true)
+[2023-03-27T18:30:57.981-0400] {subprocess.py:93} INFO -  |    |-- channel_flags_manual: long (nullable = true)
+[2023-03-27T18:30:57.981-0400] {subprocess.py:93} INFO -  |    |-- channel_state: long (nullable = true)
+[2023-03-27T18:30:57.981-0400] {subprocess.py:93} INFO -  |    |-- confidence: long (nullable = true)
+[2023-03-27T18:30:57.982-0400] {subprocess.py:93} INFO -  |    |-- confidence_auto: long (nullable = true)
+[2023-03-27T18:30:57.982-0400] {subprocess.py:93} INFO -  |    |-- confidence_manual: long (nullable = true)
+[2023-03-27T18:30:57.982-0400] {subprocess.py:93} INFO -  |    |-- date_created: long (nullable = true)
+[2023-03-27T18:30:57.982-0400] {subprocess.py:93} INFO -  |    |-- deciviews: double (nullable = true)
+[2023-03-27T18:30:57.982-0400] {subprocess.py:93} INFO -  |    |-- deciviews_a: double (nullable = true)
+[2023-03-27T18:30:57.982-0400] {subprocess.py:93} INFO -  |    |-- deciviews_b: double (nullable = true)
+[2023-03-27T18:30:57.983-0400] {subprocess.py:93} INFO -  |    |-- firmware_version: string (nullable = true)
+[2023-03-27T18:30:57.983-0400] {subprocess.py:93} INFO -  |    |-- hardware: string (nullable = true)
+[2023-03-27T18:30:57.983-0400] {subprocess.py:93} INFO -  |    |-- humidity: long (nullable = true)
+[2023-03-27T18:30:57.983-0400] {subprocess.py:93} INFO -  |    |-- humidity_a: long (nullable = true)
+[2023-03-27T18:30:57.983-0400] {subprocess.py:93} INFO -  |    |-- icon: long (nullable = true)
+[2023-03-27T18:30:57.984-0400] {subprocess.py:93} INFO -  |    |-- is_owner: long (nullable = true)
+[2023-03-27T18:30:57.984-0400] {subprocess.py:93} INFO -  |    |-- last_modified: long (nullable = true)
+[2023-03-27T18:30:57.984-0400] {subprocess.py:93} INFO -  |    |-- last_seen: long (nullable = true)
+[2023-03-27T18:30:57.984-0400] {subprocess.py:93} INFO -  |    |-- latitude: double (nullable = true)
+[2023-03-27T18:30:57.984-0400] {subprocess.py:93} INFO -  |    |-- led_brightness: long (nullable = true)
+[2023-03-27T18:30:57.985-0400] {subprocess.py:93} INFO -  |    |-- location_type: long (nullable = true)
+[2023-03-27T18:30:57.985-0400] {subprocess.py:93} INFO -  |    |-- longitude: double (nullable = true)
+[2023-03-27T18:30:57.985-0400] {subprocess.py:93} INFO -  |    |-- memory: long (nullable = true)
+[2023-03-27T18:30:57.985-0400] {subprocess.py:93} INFO -  |    |-- model: string (nullable = true)
+[2023-03-27T18:30:57.985-0400] {subprocess.py:93} INFO -  |    |-- name: string (nullable = true)
+[2023-03-27T18:30:57.985-0400] {subprocess.py:93} INFO -  |    |-- pa_latency: long (nullable = true)
+[2023-03-27T18:30:57.986-0400] {subprocess.py:93} INFO -  |    |-- pm1.0: double (nullable = true)
+[2023-03-27T18:30:57.986-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_a: double (nullable = true)
+[2023-03-27T18:30:57.986-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_atm: double (nullable = true)
+[2023-03-27T18:30:57.986-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_atm_a: double (nullable = true)
+[2023-03-27T18:30:57.986-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_atm_b: double (nullable = true)
+[2023-03-27T18:30:57.987-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_b: double (nullable = true)
+[2023-03-27T18:30:57.987-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_cf_1: double (nullable = true)
+[2023-03-27T18:30:57.987-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_cf_1_a: double (nullable = true)
+[2023-03-27T18:30:57.987-0400] {subprocess.py:93} INFO -  |    |-- pm1.0_cf_1_b: double (nullable = true)
+[2023-03-27T18:30:57.987-0400] {subprocess.py:93} INFO -  |    |-- pm10.0: double (nullable = true)
+[2023-03-27T18:30:57.987-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_a: double (nullable = true)
+[2023-03-27T18:30:57.988-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_atm: double (nullable = true)
+[2023-03-27T18:30:57.988-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_atm_a: double (nullable = true)
+[2023-03-27T18:30:57.988-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_atm_b: double (nullable = true)
+[2023-03-27T18:30:57.988-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_b: double (nullable = true)
+[2023-03-27T18:30:57.988-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_cf_1: double (nullable = true)
+[2023-03-27T18:30:57.989-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_cf_1_a: double (nullable = true)
+[2023-03-27T18:30:57.989-0400] {subprocess.py:93} INFO -  |    |-- pm10.0_cf_1_b: double (nullable = true)
+[2023-03-27T18:30:57.989-0400] {subprocess.py:93} INFO -  |    |-- pm2.5: double (nullable = true)
+[2023-03-27T18:30:57.989-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_a: double (nullable = true)
+[2023-03-27T18:30:57.989-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_alt: double (nullable = true)
+[2023-03-27T18:30:57.989-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_alt_a: double (nullable = true)
+[2023-03-27T18:30:57.990-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_alt_b: double (nullable = true)
+[2023-03-27T18:30:57.990-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_atm: double (nullable = true)
+[2023-03-27T18:30:57.990-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_atm_a: double (nullable = true)
+[2023-03-27T18:30:57.990-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_atm_b: double (nullable = true)
+[2023-03-27T18:30:57.990-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_b: double (nullable = true)
+[2023-03-27T18:30:57.991-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_cf_1: double (nullable = true)
+[2023-03-27T18:30:57.991-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_cf_1_a: double (nullable = true)
+[2023-03-27T18:30:57.991-0400] {subprocess.py:93} INFO -  |    |-- pm2.5_cf_1_b: double (nullable = true)
+[2023-03-27T18:30:57.991-0400] {subprocess.py:93} INFO -  |    |-- position_rating: long (nullable = true)
+[2023-03-27T18:30:57.991-0400] {subprocess.py:93} INFO -  |    |-- pressure: double (nullable = true)
+[2023-03-27T18:30:57.991-0400] {subprocess.py:93} INFO -  |    |-- pressure_a: double (nullable = true)
+[2023-03-27T18:30:57.992-0400] {subprocess.py:93} INFO -  |    |-- primary_id_a: long (nullable = true)
+[2023-03-27T18:30:57.992-0400] {subprocess.py:93} INFO -  |    |-- primary_id_b: long (nullable = true)
+[2023-03-27T18:30:57.992-0400] {subprocess.py:93} INFO -  |    |-- primary_key_a: string (nullable = true)
+[2023-03-27T18:30:57.992-0400] {subprocess.py:93} INFO -  |    |-- primary_key_b: string (nullable = true)
+[2023-03-27T18:30:57.992-0400] {subprocess.py:93} INFO -  |    |-- private: long (nullable = true)
+[2023-03-27T18:30:57.993-0400] {subprocess.py:93} INFO -  |    |-- rssi: long (nullable = true)
+[2023-03-27T18:30:57.993-0400] {subprocess.py:93} INFO -  |    |-- scattering_coefficient: double (nullable = true)
+[2023-03-27T18:30:57.993-0400] {subprocess.py:93} INFO -  |    |-- scattering_coefficient_a: double (nullable = true)
+[2023-03-27T18:30:57.993-0400] {subprocess.py:93} INFO -  |    |-- scattering_coefficient_b: double (nullable = true)
+[2023-03-27T18:30:57.993-0400] {subprocess.py:93} INFO -  |    |-- secondary_id_a: long (nullable = true)
+[2023-03-27T18:30:57.993-0400] {subprocess.py:93} INFO -  |    |-- secondary_id_b: long (nullable = true)
+[2023-03-27T18:30:57.994-0400] {subprocess.py:93} INFO -  |    |-- secondary_key_a: string (nullable = true)
+[2023-03-27T18:30:57.994-0400] {subprocess.py:93} INFO -  |    |-- secondary_key_b: string (nullable = true)
+[2023-03-27T18:30:57.994-0400] {subprocess.py:93} INFO -  |    |-- sensor_index: long (nullable = true)
+[2023-03-27T18:30:57.994-0400] {subprocess.py:93} INFO -  |    |-- stats: struct (nullable = true)
+[2023-03-27T18:30:57.994-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5: double (nullable = true)
+[2023-03-27T18:30:57.995-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_10minute: double (nullable = true)
+[2023-03-27T18:30:57.995-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_1week: double (nullable = true)
+[2023-03-27T18:30:57.995-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_24hour: double (nullable = true)
+[2023-03-27T18:30:57.995-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_30minute: double (nullable = true)
+[2023-03-27T18:30:57.995-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_60minute: double (nullable = true)
+[2023-03-27T18:30:57.995-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_6hour: double (nullable = true)
+[2023-03-27T18:30:57.996-0400] {subprocess.py:93} INFO -  |    |    |-- time_stamp: long (nullable = true)
+[2023-03-27T18:30:57.996-0400] {subprocess.py:93} INFO -  |    |-- stats_a: struct (nullable = true)
+[2023-03-27T18:30:57.996-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5: double (nullable = true)
+[2023-03-27T18:30:57.996-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_10minute: double (nullable = true)
+[2023-03-27T18:30:57.996-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_1week: double (nullable = true)
+[2023-03-27T18:30:57.996-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_24hour: double (nullable = true)
+[2023-03-27T18:30:57.997-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_30minute: double (nullable = true)
+[2023-03-27T18:30:57.997-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_60minute: double (nullable = true)
+[2023-03-27T18:30:57.997-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_6hour: double (nullable = true)
+[2023-03-27T18:30:57.997-0400] {subprocess.py:93} INFO -  |    |    |-- time_stamp: long (nullable = true)
+[2023-03-27T18:30:57.997-0400] {subprocess.py:93} INFO -  |    |-- stats_b: struct (nullable = true)
+[2023-03-27T18:30:57.998-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5: double (nullable = true)
+[2023-03-27T18:30:57.998-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_10minute: double (nullable = true)
+[2023-03-27T18:30:57.998-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_1week: double (nullable = true)
+[2023-03-27T18:30:57.998-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_24hour: double (nullable = true)
+[2023-03-27T18:30:57.998-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_30minute: double (nullable = true)
+[2023-03-27T18:30:57.998-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_60minute: double (nullable = true)
+[2023-03-27T18:30:57.999-0400] {subprocess.py:93} INFO -  |    |    |-- pm2.5_6hour: double (nullable = true)
+[2023-03-27T18:30:57.999-0400] {subprocess.py:93} INFO -  |    |    |-- time_stamp: long (nullable = true)
+[2023-03-27T18:30:57.999-0400] {subprocess.py:93} INFO -  |    |-- temperature: long (nullable = true)
+[2023-03-27T18:30:57.999-0400] {subprocess.py:93} INFO -  |    |-- temperature_a: long (nullable = true)
+[2023-03-27T18:30:57.999-0400] {subprocess.py:93} INFO -  |    |-- uptime: long (nullable = true)
+[2023-03-27T18:30:58.000-0400] {subprocess.py:93} INFO -  |    |-- visual_range: double (nullable = true)
+[2023-03-27T18:30:58.000-0400] {subprocess.py:93} INFO -  |    |-- visual_range_a: double (nullable = true)
+[2023-03-27T18:30:58.000-0400] {subprocess.py:93} INFO -  |    |-- visual_range_b: double (nullable = true)
+[2023-03-27T18:30:58.000-0400] {subprocess.py:93} INFO -  |-- time_stamp: long (nullable = true)
+[2023-03-27T18:30:58.000-0400] {subprocess.py:93} INFO - 
+[2023-03-27T18:30:58.000-0400] {subprocess.py:93} INFO - +--------------------+--------------+---------------+--------------------+----------+
+[2023-03-27T18:30:58.001-0400] {subprocess.py:93} INFO - |     _corrupt_record|   api_version|data_time_stamp|              sensor|time_stamp|
+[2023-03-27T18:30:58.001-0400] {subprocess.py:93} INFO - +--------------------+--------------+---------------+--------------------+----------+
+[2023-03-27T18:30:58.001-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956178|[2467, 2562, 2373...|1679956206|
+[2023-03-27T18:30:58.001-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956178|[3580, 3974, 3187...|1679956209|
+[2023-03-27T18:30:58.001-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956200|[3168, 2815, 3522...|1679956210|
+[2023-03-27T18:30:58.002-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956179|[2526, 2371, 2681...|1679956213|
+[2023-03-27T18:30:58.002-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956179|[3306, 3328, 3284...|1679956214|
+[2023-03-27T18:30:58.002-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956219|[954, 954, 26135,...|1679956225|
+[2023-03-27T18:30:58.002-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956200|[3573, 3712, 3434...|1679956226|
+[2023-03-27T18:30:58.002-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956200|[266, 278, 255, 2...|1679956228|
+[2023-03-27T18:30:58.002-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956200|[2991, 2671, 3312...|1679956229|
+[2023-03-27T18:30:58.003-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956178|[498, 498, 2701, ...|1679956230|
+[2023-03-27T18:30:58.003-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956179|[840, 790, 890, 7...|1679956232|
+[2023-03-27T18:30:58.003-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956219|[2925, 2768, 3082...|1679956233|
+[2023-03-27T18:30:58.003-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956200|[2991, 2671, 3312...|1679956234|
+[2023-03-27T18:30:58.003-0400] {subprocess.py:93} INFO - |{'api_version': '...|          null|           null|                null|      null|
+[2023-03-27T18:30:58.004-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956208|[2511, 2286, 2736...|1679956237|
+[2023-03-27T18:30:58.004-0400] {subprocess.py:93} INFO - |                null|V1.0.11-0.0.42|     1679956208|[2848, 2902, 2795...|1679956238|
+[2023-03-27T18:30:58.004-0400] {subprocess.py:93} INFO - +--------------------+--------------+---------------+--------------------+----------+
+[2023-03-27T18:30:58.004-0400] {subprocess.py:93} INFO - 
+[2023-03-27T18:30:58.004-0400] {subprocess.py:93} INFO - +------------+---------+----------+--------+-----------+-----------+----------+-------------+
+[2023-03-27T18:30:58.004-0400] {subprocess.py:93} INFO - |sensor_index| latitude| longitude|pressure|pm2.5_atm_a|pm2.5_atm_b|humidity_a|temperature_a|
+[2023-03-27T18:30:58.005-0400] {subprocess.py:93} INFO - +------------+---------+----------+--------+-----------+-----------+----------+-------------+
+[2023-03-27T18:30:58.005-0400] {subprocess.py:93} INFO - |      128679|40.070442| -83.01968|  642.66|       24.9|      25.62|        51|           72|
+[2023-03-27T18:30:58.005-0400] {subprocess.py:93} INFO - |       42145|40.045116|  -82.9947|   987.9|      34.56|      30.17|        49|           57|
+[2023-03-27T18:30:58.005-0400] {subprocess.py:93} INFO - |      103092| 40.10328| -83.04084|  989.36|      37.29|      33.57|        51|           57|
+[2023-03-27T18:30:58.005-0400] {subprocess.py:93} INFO - |       33861|40.021294|-82.990456|  987.94|      30.81|      26.47|        52|           57|
+[2023-03-27T18:30:58.006-0400] {subprocess.py:93} INFO - |       72009|40.057014| -83.00535|  988.11|      27.55|      27.32|        49|           56|
+[2023-03-27T18:30:58.006-0400] {subprocess.py:93} INFO - |      149716|39.974773| -82.88287|  987.55|       7.08|     179.72|        35|           56|
+[2023-03-27T18:30:58.006-0400] {subprocess.py:93} INFO - |      147691|39.962215| -83.07883|  990.79|      33.32|      30.67|        61|           52|
+[2023-03-27T18:30:58.006-0400] {subprocess.py:93} INFO - |      120351|40.170296| -82.77792|  986.33|       1.39|       1.04|        31|           42|
+[2023-03-27T18:30:58.006-0400] {subprocess.py:93} INFO - |      158823|39.878136| -83.08927|  989.17|      24.25|      29.54|        45|           60|
+[2023-03-27T18:30:58.006-0400] {subprocess.py:93} INFO - |      142906|39.839783| -83.07625|    null|       3.51|      23.19|      null|         null|
+[2023-03-27T18:30:58.007-0400] {subprocess.py:93} INFO - |      133099| 40.00742| -83.05926|   988.9|      25.14|       26.4|        48|           58|
+[2023-03-27T18:30:58.007-0400] {subprocess.py:93} INFO - |      103358|40.030293| -83.02833|  991.18|      28.88|      29.34|        53|           54|
+[2023-03-27T18:30:58.007-0400] {subprocess.py:93} INFO - |      158823|39.878136| -83.08927|  989.17|      24.25|      29.54|        45|           60|
+[2023-03-27T18:30:58.007-0400] {subprocess.py:93} INFO - |        null|     null|      null|    null|       null|       null|      null|         null|
+[2023-03-27T18:30:58.007-0400] {subprocess.py:93} INFO - |      128591|39.933132| -82.96611|  992.19|      22.76|      26.16|        50|           58|
+[2023-03-27T18:30:58.008-0400] {subprocess.py:93} INFO - |      131379| 39.96028|-83.006294|  993.64|      26.22|      25.95|        45|           58|
+[2023-03-27T18:30:58.008-0400] {subprocess.py:93} INFO - +------------+---------+----------+--------+-----------+-----------+----------+-------------+
+[2023-03-27T18:30:58.008-0400] {subprocess.py:93} INFO - 
+[2023-03-27T18:30:58.008-0400] {subprocess.py:93} INFO - +------------+---------+----------+--------+-----------+-----------+----------+-------------+
+[2023-03-27T18:30:58.008-0400] {subprocess.py:93} INFO - |sensor_index| latitude| longitude|pressure|pm2_5_atm_a|pm2_5_atm_b|humidity_a|temperature_a|
+[2023-03-27T18:30:58.008-0400] {subprocess.py:93} INFO - +------------+---------+----------+--------+-----------+-----------+----------+-------------+
+[2023-03-27T18:30:58.009-0400] {subprocess.py:93} INFO - |      128679|40.070442| -83.01968|  642.66|       24.9|      25.62|        51|           72|
+[2023-03-27T18:30:58.009-0400] {subprocess.py:93} INFO - |       42145|40.045116|  -82.9947|   987.9|      34.56|      30.17|        49|           57|
+[2023-03-27T18:30:58.009-0400] {subprocess.py:93} INFO - |      103092| 40.10328| -83.04084|  989.36|      37.29|      33.57|        51|           57|
+[2023-03-27T18:30:58.009-0400] {subprocess.py:93} INFO - |       33861|40.021294|-82.990456|  987.94|      30.81|      26.47|        52|           57|
+[2023-03-27T18:30:58.009-0400] {subprocess.py:93} INFO - |       72009|40.057014| -83.00535|  988.11|      27.55|      27.32|        49|           56|
+[2023-03-27T18:30:58.010-0400] {subprocess.py:93} INFO - |      149716|39.974773| -82.88287|  987.55|       7.08|     179.72|        35|           56|
+[2023-03-27T18:30:58.010-0400] {subprocess.py:93} INFO - |      147691|39.962215| -83.07883|  990.79|      33.32|      30.67|        61|           52|
+[2023-03-27T18:30:58.010-0400] {subprocess.py:93} INFO - |      120351|40.170296| -82.77792|  986.33|       1.39|       1.04|        31|           42|
+[2023-03-27T18:30:58.010-0400] {subprocess.py:93} INFO - |      158823|39.878136| -83.08927|  989.17|      24.25|      29.54|        45|           60|
+[2023-03-27T18:30:58.010-0400] {subprocess.py:93} INFO - |      142906|39.839783| -83.07625|    null|       3.51|      23.19|      null|         null|
+[2023-03-27T18:30:58.010-0400] {subprocess.py:93} INFO - |      133099| 40.00742| -83.05926|   988.9|      25.14|       26.4|        48|           58|
+[2023-03-27T18:30:58.011-0400] {subprocess.py:93} INFO - |      103358|40.030293| -83.02833|  991.18|      28.88|      29.34|        53|           54|
+[2023-03-27T18:30:58.011-0400] {subprocess.py:93} INFO - |      158823|39.878136| -83.08927|  989.17|      24.25|      29.54|        45|           60|
+[2023-03-27T18:30:58.011-0400] {subprocess.py:93} INFO - |        null|     null|      null|    null|       null|       null|      null|         null|
+[2023-03-27T18:30:58.011-0400] {subprocess.py:93} INFO - |      128591|39.933132| -82.96611|  992.19|      22.76|      26.16|        50|           58|
+[2023-03-27T18:30:58.011-0400] {subprocess.py:93} INFO - |      131379| 39.96028|-83.006294|  993.64|      26.22|      25.95|        45|           58|
+[2023-03-27T18:30:58.011-0400] {subprocess.py:93} INFO - +------------+---------+----------+--------+-----------+-----------+----------+-------------+
+[2023-03-27T18:30:58.012-0400] {subprocess.py:93} INFO - 
+[2023-03-27T18:30:58.012-0400] {subprocess.py:93} INFO - End of spark session
+[2023-03-27T18:30:58.516-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-03-27T18:30:58.537-0400] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=air_quality_pipeline, task_id=run_consumer, execution_date=20230327T223003, start_date=20230327T223042, end_date=20230327T223058
+[2023-03-27T18:30:58.557-0400] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-03-27T18:30:58.576-0400] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check

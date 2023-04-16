@@ -1,0 +1,45 @@
+[2023-03-27T17:56:18.369-0400] {processor.py:153} INFO - Started process (PID=5662) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:56:18.370-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T17:56:18.371-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:18.370-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:56:18.421-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:56:18.428-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.062 seconds
+[2023-03-27T17:56:50.931-0400] {processor.py:153} INFO - Started process (PID=5722) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:56:50.933-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T17:56:50.934-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:50.934-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:56:50.979-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:56:50.987-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.060 seconds
+[2023-03-27T17:57:29.475-0400] {processor.py:153} INFO - Started process (PID=5790) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:57:29.477-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T17:57:29.478-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:57:29.477-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:57:29.519-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:57:29.527-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.056 seconds
+[2023-03-27T17:58:09.912-0400] {processor.py:153} INFO - Started process (PID=5869) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:58:09.914-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T17:58:09.915-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:09.915-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:58:09.916-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:09.916-0400] {dagbag.py:318} INFO - File /Users/srivardhan/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2023-03-27T17:58:09.916-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:58:09.926-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.017 seconds
+[2023-03-27T17:58:51.235-0400] {processor.py:153} INFO - Started process (PID=5935) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:58:51.237-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T17:58:51.238-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:51.238-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:58:51.239-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:51.239-0400] {dagbag.py:318} INFO - File /Users/srivardhan/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2023-03-27T17:58:51.240-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:58:51.249-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.018 seconds
+[2023-03-27T17:59:32.842-0400] {processor.py:153} INFO - Started process (PID=5984) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:59:32.844-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T17:59:32.845-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:59:32.845-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:59:32.847-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:59:32.846-0400] {dagbag.py:318} INFO - File /Users/srivardhan/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2023-03-27T17:59:32.847-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T17:59:32.857-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.019 seconds
+[2023-03-27T18:00:14.042-0400] {processor.py:153} INFO - Started process (PID=6040) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T18:00:14.044-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T18:00:14.046-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:14.045-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T18:00:14.047-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:14.047-0400] {dagbag.py:318} INFO - File /Users/srivardhan/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2023-03-27T18:00:14.047-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T18:00:14.056-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.018 seconds
+[2023-03-27T18:00:55.721-0400] {processor.py:153} INFO - Started process (PID=6112) to work on /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T18:00:55.723-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/producer.py for tasks to queue
+[2023-03-27T18:00:55.724-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:55.724-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T18:00:55.725-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:55.725-0400] {dagbag.py:318} INFO - File /Users/srivardhan/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2023-03-27T18:00:55.726-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/producer.py
+[2023-03-27T18:00:55.736-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/producer.py took 0.018 seconds

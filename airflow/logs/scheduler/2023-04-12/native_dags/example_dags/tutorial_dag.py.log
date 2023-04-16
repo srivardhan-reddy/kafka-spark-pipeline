@@ -1,0 +1,77 @@
+[2023-04-11T21:13:00.922-0400] {processor.py:153} INFO - Started process (PID=41126) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T21:13:00.924-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T21:13:00.926-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:13:00.925-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T21:13:00.935-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T21:13:00.955-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:13:00.955-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T21:13:00.969-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:13:00.969-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T21:13:00.981-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2023-04-11T22:00:26.221-0400] {processor.py:153} INFO - Started process (PID=41238) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:00:26.224-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T22:00:26.225-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:00:26.225-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:00:26.235-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:00:26.253-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:00:26.253-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T22:00:26.268-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:00:26.267-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T22:00:26.279-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2023-04-11T22:21:49.410-0400] {processor.py:153} INFO - Started process (PID=41310) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:21:49.412-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T22:21:49.414-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:21:49.413-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:21:49.424-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:21:49.441-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:21:49.441-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T22:21:49.455-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:21:49.454-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T22:21:49.465-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2023-04-11T22:27:35.997-0400] {processor.py:153} INFO - Started process (PID=41420) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:27:35.999-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T22:27:36.001-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:27:36.000-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:27:36.010-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:27:36.027-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:27:36.027-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T22:27:36.040-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:27:36.039-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T22:27:36.050-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2023-04-11T22:35:13.431-0400] {processor.py:153} INFO - Started process (PID=41535) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:35:13.433-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T22:35:13.433-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:35:13.433-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:35:13.439-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T22:35:13.452-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:35:13.451-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T22:35:13.463-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:35:13.463-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T22:35:13.473-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2023-04-11T23:09:47.803-0400] {processor.py:153} INFO - Started process (PID=41630) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:09:47.804-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T23:09:47.805-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:09:47.805-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:09:47.811-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:09:47.826-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:09:47.826-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:09:47.840-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:09:47.840-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T23:09:47.856-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2023-04-11T23:10:30.215-0400] {processor.py:153} INFO - Started process (PID=41733) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:10:30.217-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T23:10:30.219-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:10:30.218-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:10:30.228-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:10:30.246-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:10:30.246-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:10:30.260-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:10:30.260-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T23:10:30.272-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2023-04-11T23:11:12.304-0400] {processor.py:153} INFO - Started process (PID=41854) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:11:12.306-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T23:11:12.307-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:12.307-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:11:12.315-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:11:12.334-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:12.333-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:11:12.347-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:12.346-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T23:11:12.358-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2023-04-11T23:11:52.836-0400] {processor.py:153} INFO - Started process (PID=41947) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:11:52.838-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T23:11:52.839-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:52.838-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:11:52.847-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:11:52.865-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:52.865-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:11:52.880-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:52.880-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T23:11:52.893-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2023-04-11T23:12:31.138-0400] {processor.py:153} INFO - Started process (PID=42064) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:12:31.140-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T23:12:31.141-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:12:31.140-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:12:31.151-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:12:31.169-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:12:31.168-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:12:31.184-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:12:31.184-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T23:12:31.203-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-04-11T23:13:13.581-0400] {processor.py:153} INFO - Started process (PID=42242) to work on /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:13:13.583-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-04-11T23:13:13.584-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:13.584-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:13:13.593-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-04-11T23:13:13.609-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:13.609-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:13:13.622-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:13.622-0400] {dag.py:3444} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-04-11T23:13:13.634-0400] {processor.py:175} INFO - Processing /Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds

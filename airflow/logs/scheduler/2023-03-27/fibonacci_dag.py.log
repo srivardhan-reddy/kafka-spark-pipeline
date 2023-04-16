@@ -1,0 +1,280 @@
+[2023-03-27T17:06:16.271-0400] {processor.py:153} INFO - Started process (PID=1546) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:06:16.272-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:06:16.272-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:16.272-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:06:16.287-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:06:16.352-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:16.352-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:fibonacci
+[2023-03-27T17:06:16.357-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:16.357-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:fibonacci
+[2023-03-27T17:06:16.360-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:16.360-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:fibonacci
+[2023-03-27T17:06:16.360-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:16.360-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:06:16.368-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:16.367-0400] {dag.py:2714} INFO - Creating ORM DAG for fibonacci
+[2023-03-27T17:06:16.374-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:16.374-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:06:16.384-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.115 seconds
+[2023-03-27T17:06:58.360-0400] {processor.py:153} INFO - Started process (PID=1599) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:06:58.362-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:06:58.363-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:58.363-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:06:58.380-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:06:58.396-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:58.396-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:06:58.412-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:06:58.412-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:06:58.424-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.067 seconds
+[2023-03-27T17:07:36.958-0400] {processor.py:153} INFO - Started process (PID=1638) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:07:36.959-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:07:36.960-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:07:36.960-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:07:36.977-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:07:36.992-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:07:36.991-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:07:37.006-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:07:37.005-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:07:37.017-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.063 seconds
+[2023-03-27T17:08:14.147-0400] {processor.py:153} INFO - Started process (PID=1677) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:08:14.149-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:08:14.150-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:08:14.149-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:08:14.165-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:08:14.180-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:08:14.180-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:08:14.194-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:08:14.194-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:08:14.205-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.062 seconds
+[2023-03-27T17:08:51.984-0400] {processor.py:153} INFO - Started process (PID=1715) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:08:51.985-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:08:51.986-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:08:51.986-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:08:52.001-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:08:52.014-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:08:52.014-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:08:52.028-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:08:52.028-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:08:52.039-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.058 seconds
+[2023-03-27T17:09:32.019-0400] {processor.py:153} INFO - Started process (PID=1756) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:09:32.020-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:09:32.021-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:09:32.021-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:09:32.036-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:09:32.050-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:09:32.050-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:09:32.063-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:09:32.063-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:09:32.075-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.059 seconds
+[2023-03-27T17:10:12.111-0400] {processor.py:153} INFO - Started process (PID=1799) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:10:12.113-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:10:12.115-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:10:12.114-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:10:12.131-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:10:12.145-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:10:12.145-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:10:12.158-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:10:12.158-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:10:12.169-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.061 seconds
+[2023-03-27T17:10:55.682-0400] {processor.py:153} INFO - Started process (PID=1848) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:10:55.684-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:10:55.686-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:10:55.686-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:10:55.702-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:10:55.716-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:10:55.716-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:10:55.730-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:10:55.729-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:10:55.741-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.063 seconds
+[2023-03-27T17:11:32.658-0400] {processor.py:153} INFO - Started process (PID=1885) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:11:32.660-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:11:32.661-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:11:32.661-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:11:32.676-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:11:32.689-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:11:32.689-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:11:32.702-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:11:32.702-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:11:32.713-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.059 seconds
+[2023-03-27T17:12:12.081-0400] {processor.py:153} INFO - Started process (PID=1927) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:12:12.083-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:12:12.084-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:12:12.084-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:12:12.100-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:12:12.115-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:12:12.115-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:12:12.130-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:12:12.130-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:12:12.141-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.064 seconds
+[2023-03-27T17:12:50.216-0400] {processor.py:153} INFO - Started process (PID=1980) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:12:50.218-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:12:50.220-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:12:50.219-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:12:50.235-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:12:50.250-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:12:50.249-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:12:50.263-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:12:50.262-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:12:50.273-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.061 seconds
+[2023-03-27T17:13:30.728-0400] {processor.py:153} INFO - Started process (PID=2021) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:13:30.730-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:13:30.731-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:13:30.731-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:13:30.747-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:13:30.761-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:13:30.760-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:13:30.773-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:13:30.773-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:13:30.784-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.060 seconds
+[2023-03-27T17:14:09.506-0400] {processor.py:153} INFO - Started process (PID=2062) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:14:09.507-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:14:09.508-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:14:09.508-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:14:09.525-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:14:09.539-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:14:09.539-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:14:09.552-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:14:09.552-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:14:09.562-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.060 seconds
+[2023-03-27T17:14:47.811-0400] {processor.py:153} INFO - Started process (PID=2105) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:14:47.813-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:14:47.814-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:14:47.813-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:14:47.827-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:14:47.840-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:14:47.840-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:14:47.853-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:14:47.853-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:14:47.864-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.056 seconds
+[2023-03-27T17:15:26.165-0400] {processor.py:153} INFO - Started process (PID=2175) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:15:26.166-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:15:26.167-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:15:26.167-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:15:26.181-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:15:26.196-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:15:26.195-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:15:26.211-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:15:26.210-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:15:26.224-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.061 seconds
+[2023-03-27T17:16:08.471-0400] {processor.py:153} INFO - Started process (PID=2234) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:16:08.473-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:16:08.474-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:16:08.474-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:16:08.491-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:16:08.506-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:16:08.506-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:16:08.520-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:16:08.519-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:16:08.532-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.065 seconds
+[2023-03-27T17:16:46.690-0400] {processor.py:153} INFO - Started process (PID=2274) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:16:46.691-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:16:46.692-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:16:46.692-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:16:46.708-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:16:46.722-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:16:46.721-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:16:46.735-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:16:46.734-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:16:46.746-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.060 seconds
+[2023-03-27T17:17:26.856-0400] {processor.py:153} INFO - Started process (PID=2314) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:17:26.857-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:17:26.858-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:17:26.858-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:17:26.873-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:17:26.888-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:17:26.887-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:17:26.900-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:17:26.900-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:17:26.912-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.060 seconds
+[2023-03-27T17:18:06.447-0400] {processor.py:153} INFO - Started process (PID=2356) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:18:06.449-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:18:06.450-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:18:06.450-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:18:06.467-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:18:06.482-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:18:06.481-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:18:06.496-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:18:06.496-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:18:06.509-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.068 seconds
+[2023-03-27T17:18:42.719-0400] {processor.py:153} INFO - Started process (PID=2497) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:18:42.722-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:18:42.723-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:18:42.722-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:18:42.737-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:18:42.753-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:18:42.752-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:18:42.768-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:18:42.767-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:18:42.779-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.064 seconds
+[2023-03-27T17:19:19.265-0400] {processor.py:153} INFO - Started process (PID=2547) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:19:19.267-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:19:19.269-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:19:19.268-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:19:19.283-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:19:19.299-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:19:19.299-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:19:19.314-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:19:19.314-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:19:19.326-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.065 seconds
+[2023-03-27T17:19:54.407-0400] {processor.py:153} INFO - Started process (PID=2644) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:19:54.408-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:19:54.409-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:19:54.409-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:19:54.423-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:19:54.437-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:19:54.436-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:19:54.450-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:19:54.450-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:19:54.461-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.057 seconds
+[2023-03-27T17:20:35.067-0400] {processor.py:153} INFO - Started process (PID=2764) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:20:35.069-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:20:35.070-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:20:35.070-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:20:35.085-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:20:35.099-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:20:35.099-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:20:35.112-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:20:35.111-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:20:35.122-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.059 seconds
+[2023-03-27T17:21:11.564-0400] {processor.py:153} INFO - Started process (PID=2806) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:21:11.566-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:21:11.567-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:21:11.566-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:21:11.579-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:21:11.593-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:21:11.592-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:21:11.607-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:21:11.606-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:21:11.620-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.060 seconds
+[2023-03-27T17:21:46.042-0400] {processor.py:153} INFO - Started process (PID=2843) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:21:46.045-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:21:46.046-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:21:46.045-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:21:46.062-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:21:46.098-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:21:46.097-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:21:46.109-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:21:46.109-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:21:46.121-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.082 seconds
+[2023-03-27T17:22:19.861-0400] {processor.py:153} INFO - Started process (PID=2881) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:22:19.863-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:22:19.864-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:22:19.864-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:22:19.868-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:22:19.866-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/fibonacci_dag.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/fibonacci_dag.py", line 25
+    bash_command='python3 `~/Users/srivardhan/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py`',
+                                                                     ^
+SyntaxError: invalid syntax
+[2023-03-27T17:22:19.868-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:22:19.881-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.024 seconds
+[2023-03-27T17:22:59.673-0400] {processor.py:153} INFO - Started process (PID=2922) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:22:59.676-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:22:59.677-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:22:59.676-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:22:59.693-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:22:59.726-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:22:59.726-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:22:59.738-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:22:59.738-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:22:59.751-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.081 seconds
+[2023-03-27T17:23:40.940-0400] {processor.py:153} INFO - Started process (PID=2970) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:23:40.942-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:23:40.943-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:23:40.943-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:23:40.958-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:23:40.973-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:23:40.973-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:23:40.987-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:23:40.987-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:23:40.999-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.062 seconds
+[2023-03-27T17:24:19.879-0400] {processor.py:153} INFO - Started process (PID=3012) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:24:19.881-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:24:19.882-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:24:19.881-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:24:19.897-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:24:19.910-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:24:19.910-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:24:19.924-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:24:19.923-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:24:19.935-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.060 seconds
+[2023-03-27T17:24:56.056-0400] {processor.py:153} INFO - Started process (PID=3049) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:24:56.057-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:24:56.059-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:24:56.059-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:24:56.073-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:24:56.088-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:24:56.088-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:24:56.102-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:24:56.102-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:24:56.115-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.063 seconds
+[2023-03-27T17:25:35.619-0400] {processor.py:153} INFO - Started process (PID=3088) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:25:35.620-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:25:35.621-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:25:35.620-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:25:35.635-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:25:35.648-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:25:35.648-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:25:35.662-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:25:35.661-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:25:35.672-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.057 seconds
+[2023-03-27T17:26:12.955-0400] {processor.py:153} INFO - Started process (PID=3131) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:26:12.956-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:26:12.958-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:26:12.957-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:26:12.974-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:26:12.988-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:26:12.988-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:26:13.001-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:26:13.001-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:26:13.012-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.061 seconds
+[2023-03-27T17:26:48.216-0400] {processor.py:153} INFO - Started process (PID=3172) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:26:48.217-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:26:48.218-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:26:48.218-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:26:48.233-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:26:48.248-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:26:48.247-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:26:48.261-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:26:48.261-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:26:48.272-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.059 seconds
+[2023-03-27T17:27:25.522-0400] {processor.py:153} INFO - Started process (PID=3225) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:27:25.524-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:27:25.525-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:27:25.525-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:27:25.541-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:27:25.555-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:27:25.555-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:27:25.569-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:27:25.569-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:27:25.580-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.061 seconds
+[2023-03-27T17:28:01.651-0400] {processor.py:153} INFO - Started process (PID=3324) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:28:01.652-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:28:01.653-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:28:01.652-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:28:01.664-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:28:01.676-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:28:01.676-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:28:01.690-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:28:01.689-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:28:01.702-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.053 seconds
+[2023-03-27T17:28:39.503-0400] {processor.py:153} INFO - Started process (PID=3378) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:28:39.504-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:28:39.505-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:28:39.505-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:28:39.519-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:28:39.532-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:28:39.531-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:28:39.544-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:28:39.544-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:28:39.556-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.056 seconds
+[2023-03-27T17:29:16.827-0400] {processor.py:153} INFO - Started process (PID=3416) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:29:16.830-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:29:16.831-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:29:16.831-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:29:16.845-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:29:16.860-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:29:16.860-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:29:16.875-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:29:16.874-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:29:16.887-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.063 seconds
+[2023-03-27T17:29:51.504-0400] {processor.py:153} INFO - Started process (PID=3464) to work on /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:29:51.506-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/fibonacci_dag.py for tasks to queue
+[2023-03-27T17:29:51.507-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:29:51.507-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:29:51.522-0400] {processor.py:753} INFO - DAG(s) dict_keys(['fibonacci']) retrieved from /Users/srivardhan/airflow/dags/fibonacci_dag.py
+[2023-03-27T17:29:51.536-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:29:51.536-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:29:51.550-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:29:51.550-0400] {dag.py:3444} INFO - Setting next_dagrun for fibonacci to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:29:51.561-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/fibonacci_dag.py took 0.061 seconds

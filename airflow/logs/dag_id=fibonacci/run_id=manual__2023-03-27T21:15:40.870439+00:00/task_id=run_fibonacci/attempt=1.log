@@ -1,0 +1,28 @@
+[2023-03-27T17:15:43.055-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fibonacci.run_fibonacci manual__2023-03-27T21:15:40.870439+00:00 [queued]>
+[2023-03-27T17:15:43.062-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fibonacci.run_fibonacci manual__2023-03-27T21:15:40.870439+00:00 [queued]>
+[2023-03-27T17:15:43.062-0400] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-27T17:15:43.062-0400] {taskinstance.py:1283} INFO - Starting attempt 1 of 2
+[2023-03-27T17:15:43.062-0400] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-27T17:15:43.069-0400] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): run_fibonacci> on 2023-03-27 21:15:40.870439+00:00
+[2023-03-27T17:15:43.074-0400] {standard_task_runner.py:55} INFO - Started process 2203 to run task
+[2023-03-27T17:15:43.078-0400] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'fibonacci', 'run_fibonacci', 'manual__2023-03-27T21:15:40.870439+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/fibonacci_dag.py', '--cfg-path', '/var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T/tmptrl0i5os']
+[2023-03-27T17:15:43.079-0400] {standard_task_runner.py:83} INFO - Job 8: Subtask run_fibonacci
+[2023-03-27T17:15:43.110-0400] {task_command.py:388} INFO - Running <TaskInstance: fibonacci.run_fibonacci manual__2023-03-27T21:15:40.870439+00:00 [running]> on host srivardhans-air.starry-inc.net
+[2023-03-27T17:15:43.142-0400] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=fibonacci
+AIRFLOW_CTX_TASK_ID=run_fibonacci
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-27T21:15:40.870439+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-27T21:15:40.870439+00:00
+[2023-03-27T17:15:43.143-0400] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T
+[2023-03-27T17:15:43.143-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python ~/airflow/dags/fibonacci.py']
+[2023-03-27T17:15:43.153-0400] {subprocess.py:86} INFO - Output:
+[2023-03-27T17:15:43.180-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-03-27T17:15:43.194-0400] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=fibonacci, task_id=run_fibonacci, execution_date=20230327T211540, start_date=20230327T211543, end_date=20230327T211543
+[2023-03-27T17:15:43.229-0400] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-03-27T17:15:43.241-0400] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

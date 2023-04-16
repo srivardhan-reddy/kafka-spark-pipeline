@@ -1,0 +1,84 @@
+[2023-04-11T21:11:38.025-0400] {processor.py:153} INFO - Started process (PID=41110) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T21:11:38.026-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T21:11:38.027-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:11:38.027-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T21:11:38.035-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T21:11:38.047-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:11:38.047-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T21:11:38.059-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:11:38.059-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T21:11:38.069-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.047 seconds
+[2023-04-11T21:52:42.218-0400] {processor.py:153} INFO - Started process (PID=41218) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T21:52:42.220-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T21:52:42.221-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:52:42.221-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T21:52:42.232-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T21:52:42.246-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:52:42.245-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T21:52:42.259-0400] {logging_mixin.py:137} INFO - [2023-04-11T21:52:42.259-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T21:52:42.270-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.055 seconds
+[2023-04-11T22:09:42.275-0400] {processor.py:153} INFO - Started process (PID=41293) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:09:42.277-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T22:09:42.278-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:09:42.278-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:09:42.289-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:09:42.304-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:09:42.304-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T22:09:42.317-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:09:42.317-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T22:09:42.327-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.056 seconds
+[2023-04-11T22:27:28.343-0400] {processor.py:153} INFO - Started process (PID=41381) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:27:28.345-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T22:27:28.346-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:27:28.345-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:27:28.356-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:27:28.370-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:27:28.370-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T22:27:28.383-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:27:28.382-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T22:27:28.395-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.055 seconds
+[2023-04-11T22:35:07.793-0400] {processor.py:153} INFO - Started process (PID=41517) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:35:07.794-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T22:35:07.795-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:35:07.795-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:35:07.806-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T22:35:07.821-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:35:07.820-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T22:35:07.833-0400] {logging_mixin.py:137} INFO - [2023-04-11T22:35:07.833-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T22:35:07.846-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.057 seconds
+[2023-04-11T23:09:41.504-0400] {processor.py:153} INFO - Started process (PID=41606) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:09:41.506-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T23:09:41.507-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:09:41.507-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:09:41.517-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:09:41.530-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:09:41.530-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:09:41.546-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:09:41.546-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T23:09:41.560-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.059 seconds
+[2023-04-11T23:10:23.390-0400] {processor.py:153} INFO - Started process (PID=41710) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:10:23.391-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T23:10:23.392-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:10:23.392-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:10:23.402-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:10:23.419-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:10:23.419-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:10:23.437-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:10:23.436-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T23:10:23.450-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.064 seconds
+[2023-04-11T23:11:05.137-0400] {processor.py:153} INFO - Started process (PID=41841) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:11:05.139-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T23:11:05.140-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:05.139-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:11:05.150-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:11:05.164-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:05.164-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:11:05.177-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:05.177-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T23:11:05.188-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.054 seconds
+[2023-04-11T23:11:46.030-0400] {processor.py:153} INFO - Started process (PID=41926) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:11:46.032-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T23:11:46.033-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:46.033-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:11:46.044-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:11:46.058-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:46.058-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:11:46.071-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:11:46.071-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T23:11:46.081-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.055 seconds
+[2023-04-11T23:12:23.986-0400] {processor.py:153} INFO - Started process (PID=42014) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:12:23.988-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T23:12:23.989-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:12:23.989-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:12:23.999-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:12:24.013-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:12:24.013-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:12:24.026-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:12:24.025-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T23:12:24.037-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.054 seconds
+[2023-04-11T23:13:00.503-0400] {processor.py:153} INFO - Started process (PID=42215) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:13:00.506-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T23:13:00.507-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:00.506-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:13:00.518-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:13:00.533-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:00.532-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:13:00.546-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:00.546-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T23:13:00.557-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.057 seconds
+[2023-04-11T23:13:40.365-0400] {processor.py:153} INFO - Started process (PID=42303) to work on /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:13:40.366-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/__pycache__/pipeline.py for tasks to queue
+[2023-04-11T23:13:40.367-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:40.367-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:13:40.376-0400] {processor.py:753} INFO - DAG(s) dict_keys(['air_quality_pipeline']) retrieved from /Users/srivardhan/airflow/dags/__pycache__/pipeline.py
+[2023-04-11T23:13:40.390-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:40.390-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-11T23:13:40.405-0400] {logging_mixin.py:137} INFO - [2023-04-11T23:13:40.405-0400] {dag.py:3444} INFO - Setting next_dagrun for air_quality_pipeline to 2023-04-12T00:00:00+00:00, run_after=2023-04-13T00:00:00+00:00
+[2023-04-11T23:13:40.418-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/__pycache__/pipeline.py took 0.056 seconds

@@ -1,0 +1,442 @@
+[2023-03-27T17:31:17.072-0400] {processor.py:153} INFO - Started process (PID=3589) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:31:17.072-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:31:17.073-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:17.073-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:31:17.085-0400] {processor.py:753} INFO - DAG(s) dict_keys(['kafka_producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:31:17.151-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:17.151-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:kafka_producer
+[2023-03-27T17:31:17.156-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:17.156-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:kafka_producer
+[2023-03-27T17:31:17.159-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:17.159-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:kafka_producer
+[2023-03-27T17:31:17.160-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:17.160-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:31:17.167-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:17.167-0400] {dag.py:2714} INFO - Creating ORM DAG for kafka_producer
+[2023-03-27T17:31:17.173-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:17.173-0400] {dag.py:3444} INFO - Setting next_dagrun for kafka_producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:31:17.183-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.114 seconds
+[2023-03-27T17:31:56.731-0400] {processor.py:153} INFO - Started process (PID=3631) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:31:56.732-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:31:56.734-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:56.733-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:31:56.753-0400] {processor.py:753} INFO - DAG(s) dict_keys(['kafka_producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:31:56.768-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:56.768-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:31:56.782-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:31:56.782-0400] {dag.py:3444} INFO - Setting next_dagrun for kafka_producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:31:56.796-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.069 seconds
+[2023-03-27T17:32:36.490-0400] {processor.py:153} INFO - Started process (PID=3670) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:32:36.491-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:32:36.492-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:32:36.492-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:32:36.508-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:32:36.570-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:32:36.569-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:producer
+[2023-03-27T17:32:36.574-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:32:36.574-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:producer
+[2023-03-27T17:32:36.578-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:32:36.578-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:producer
+[2023-03-27T17:32:36.579-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:32:36.578-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:32:36.586-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:32:36.586-0400] {dag.py:2714} INFO - Creating ORM DAG for producer
+[2023-03-27T17:32:36.593-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:32:36.592-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:32:36.669-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.183 seconds
+[2023-03-27T17:33:15.828-0400] {processor.py:153} INFO - Started process (PID=3711) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:33:15.829-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:33:15.830-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:33:15.829-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:33:15.844-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:33:15.858-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:33:15.857-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:33:15.872-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:33:15.872-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:33:15.883-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.059 seconds
+[2023-03-27T17:33:53.532-0400] {processor.py:153} INFO - Started process (PID=3752) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:33:53.534-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:33:53.535-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:33:53.534-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:33:53.539-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:33:53.537-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/kafka-pipeline.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/kafka-pipeline.py", line 25
+    bash_command='python "~/Users/srivardhan/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"',
+                                                                    ^
+SyntaxError: invalid syntax
+[2023-03-27T17:33:53.539-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:33:53.551-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.022 seconds
+[2023-03-27T17:34:29.542-0400] {processor.py:153} INFO - Started process (PID=3834) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:34:29.544-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:34:29.545-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:34:29.544-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:34:29.548-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:34:29.546-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/kafka-pipeline.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/kafka-pipeline.py", line 25
+    bash_command='python "~/Users/srivardhan/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"',
+                                                                    ^
+SyntaxError: invalid syntax
+[2023-03-27T17:34:29.548-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:34:29.559-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.021 seconds
+[2023-03-27T17:35:06.211-0400] {processor.py:153} INFO - Started process (PID=3871) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:35:06.212-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:35:06.213-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:35:06.212-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:35:06.215-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:35:06.214-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/kafka-pipeline.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/kafka-pipeline.py", line 25
+    bash_command='python "~/Users/srivardhan/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"',
+                                                                    ^
+SyntaxError: invalid syntax
+[2023-03-27T17:35:06.215-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:35:06.225-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.016 seconds
+[2023-03-27T17:35:44.620-0400] {processor.py:153} INFO - Started process (PID=3910) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:35:44.622-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:35:44.623-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:35:44.623-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:35:44.626-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:35:44.625-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/kafka-pipeline.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/kafka-pipeline.py", line 25
+    bash_command='python "~/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"',
+                                                   ^
+SyntaxError: invalid syntax
+[2023-03-27T17:35:44.627-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:35:44.641-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.024 seconds
+[2023-03-27T17:36:24.788-0400] {processor.py:153} INFO - Started process (PID=3954) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:36:24.790-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:36:24.791-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:36:24.791-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:36:24.795-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:36:24.793-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/kafka-pipeline.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/kafka-pipeline.py", line 25
+    bash_command='python "~/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"',
+                                                   ^
+SyntaxError: invalid syntax
+[2023-03-27T17:36:24.795-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:36:24.807-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.022 seconds
+[2023-03-27T17:37:06.414-0400] {processor.py:153} INFO - Started process (PID=3995) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:37:06.416-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:37:06.417-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:37:06.417-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:37:06.420-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:37:06.419-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/kafka-pipeline.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/kafka-pipeline.py", line 25
+    bash_command='python "~/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"',
+                                                   ^
+SyntaxError: invalid syntax
+[2023-03-27T17:37:06.421-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:37:06.431-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.020 seconds
+[2023-03-27T17:37:46.085-0400] {processor.py:153} INFO - Started process (PID=4037) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:37:46.087-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:37:46.088-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:37:46.087-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:37:46.091-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:37:46.090-0400] {dagbag.py:341} ERROR - Failed to import: /Users/srivardhan/airflow/dags/kafka-pipeline.py
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/srivardhan/airflow/dags/kafka-pipeline.py", line 25
+    bash_command='python "~/Desktop/Masters/Master's Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"',
+                                                   ^
+SyntaxError: invalid syntax
+[2023-03-27T17:37:46.092-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:37:46.105-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.023 seconds
+[2023-03-27T17:38:26.819-0400] {processor.py:153} INFO - Started process (PID=4081) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:38:26.820-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:38:26.821-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:38:26.821-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:38:26.834-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:38:26.866-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:38:26.866-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:38:26.880-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:38:26.880-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:38:26.893-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.078 seconds
+[2023-03-27T17:39:05.806-0400] {processor.py:153} INFO - Started process (PID=4123) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:39:05.807-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:39:05.808-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:39:05.808-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:39:05.824-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:39:05.838-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:39:05.838-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:39:05.852-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:39:05.852-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:39:05.865-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.062 seconds
+[2023-03-27T17:39:44.271-0400] {processor.py:153} INFO - Started process (PID=4164) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:39:44.273-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:39:44.274-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:39:44.274-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:39:44.290-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:39:44.304-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:39:44.304-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:39:44.318-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:39:44.317-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:39:44.328-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T17:40:24.138-0400] {processor.py:153} INFO - Started process (PID=4207) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:40:24.140-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:40:24.141-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:40:24.141-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:40:24.157-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:40:24.171-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:40:24.171-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:40:24.185-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:40:24.184-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:40:24.195-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T17:40:57.157-0400] {processor.py:153} INFO - Started process (PID=4243) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:40:57.158-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:40:57.159-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:40:57.159-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:40:57.176-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:40:57.190-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:40:57.190-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:40:57.204-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:40:57.203-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:40:57.214-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T17:41:34.396-0400] {processor.py:153} INFO - Started process (PID=4285) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:41:34.398-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:41:34.398-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:41:34.398-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:41:34.414-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:41:34.429-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:41:34.429-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:41:34.443-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:41:34.443-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:41:34.453-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T17:42:07.478-0400] {processor.py:153} INFO - Started process (PID=4403) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:42:07.480-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:42:07.482-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:42:07.481-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:42:07.508-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:42:07.530-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:42:07.529-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:42:07.550-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:42:07.549-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:42:07.572-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.097 seconds
+[2023-03-27T17:42:47.641-0400] {processor.py:153} INFO - Started process (PID=4484) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:42:47.642-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:42:47.643-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:42:47.642-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:42:47.655-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:42:47.669-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:42:47.668-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:42:47.682-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:42:47.682-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:42:47.693-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.055 seconds
+[2023-03-27T17:43:27.917-0400] {processor.py:153} INFO - Started process (PID=4528) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:43:27.918-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:43:27.919-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:43:27.919-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:43:27.933-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:43:27.946-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:43:27.946-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:43:27.960-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:43:27.959-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:43:27.971-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.057 seconds
+[2023-03-27T17:44:06.414-0400] {processor.py:153} INFO - Started process (PID=4649) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:44:06.417-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:44:06.418-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:44:06.418-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:44:06.431-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:44:06.444-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:44:06.444-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:44:06.457-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:44:06.457-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:44:06.468-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.056 seconds
+[2023-03-27T17:44:42.532-0400] {processor.py:153} INFO - Started process (PID=4724) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:44:42.533-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:44:42.534-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:44:42.534-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:44:42.546-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:44:42.558-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:44:42.558-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:44:42.572-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:44:42.572-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:44:42.583-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.053 seconds
+[2023-03-27T17:45:23.384-0400] {processor.py:153} INFO - Started process (PID=4820) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:45:23.387-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:45:23.388-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:45:23.388-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:45:23.404-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:45:23.417-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:45:23.417-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:45:23.430-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:45:23.430-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:45:23.441-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.060 seconds
+[2023-03-27T17:46:00.235-0400] {processor.py:153} INFO - Started process (PID=4864) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:46:00.238-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:46:00.239-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:46:00.239-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:46:00.254-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:46:00.269-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:46:00.268-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:46:00.283-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:46:00.282-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:46:00.294-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.062 seconds
+[2023-03-27T17:46:37.624-0400] {processor.py:153} INFO - Started process (PID=4942) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:46:37.626-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:46:37.627-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:46:37.627-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:46:37.642-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:46:37.655-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:46:37.655-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:46:37.669-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:46:37.669-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:46:37.680-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.060 seconds
+[2023-03-27T17:47:17.231-0400] {processor.py:153} INFO - Started process (PID=5016) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:47:17.233-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:47:17.234-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:47:17.234-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:47:17.249-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:47:17.263-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:47:17.263-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:47:17.276-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:47:17.276-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:47:17.287-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.059 seconds
+[2023-03-27T17:47:55.709-0400] {processor.py:153} INFO - Started process (PID=5054) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:47:55.711-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:47:55.711-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:47:55.711-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:47:55.726-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:47:55.740-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:47:55.739-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:47:55.752-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:47:55.752-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:47:55.763-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.058 seconds
+[2023-03-27T17:48:31.766-0400] {processor.py:153} INFO - Started process (PID=5096) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:48:31.768-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:48:31.769-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:48:31.769-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:48:31.785-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:48:31.799-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:48:31.799-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:48:31.813-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:48:31.812-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:48:31.823-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T17:49:07.774-0400] {processor.py:153} INFO - Started process (PID=5151) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:49:07.776-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:49:07.777-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:49:07.777-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:49:07.793-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:49:07.808-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:49:07.807-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:49:07.821-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:49:07.821-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:49:07.832-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.062 seconds
+[2023-03-27T17:49:39.078-0400] {processor.py:153} INFO - Started process (PID=5186) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:49:39.080-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:49:39.081-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:49:39.081-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:49:39.097-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:49:39.111-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:49:39.111-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:49:39.124-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:49:39.123-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:49:39.135-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T17:50:09.499-0400] {processor.py:153} INFO - Started process (PID=5217) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:50:09.502-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:50:09.503-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:50:09.502-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:50:09.518-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:50:09.532-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:50:09.532-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:50:09.545-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:50:09.545-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:50:09.556-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.060 seconds
+[2023-03-27T17:50:48.477-0400] {processor.py:153} INFO - Started process (PID=5256) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:50:48.480-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:50:48.481-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:50:48.480-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:50:48.497-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:50:48.511-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:50:48.510-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:50:48.525-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:50:48.525-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:50:48.535-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.062 seconds
+[2023-03-27T17:51:29.570-0400] {processor.py:153} INFO - Started process (PID=5342) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:51:29.572-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:51:29.573-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:51:29.573-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:51:29.587-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:51:29.601-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:51:29.601-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:51:29.615-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:51:29.614-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:51:29.625-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.059 seconds
+[2023-03-27T17:52:08.130-0400] {processor.py:153} INFO - Started process (PID=5392) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:52:08.132-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:52:08.133-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:52:08.132-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:52:08.146-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:52:08.160-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:52:08.160-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:52:08.173-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:52:08.173-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:52:08.184-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.058 seconds
+[2023-03-27T17:52:48.200-0400] {processor.py:153} INFO - Started process (PID=5448) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:52:48.202-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:52:48.203-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:52:48.203-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:52:48.219-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:52:48.233-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:52:48.233-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:52:48.247-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:52:48.247-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:52:48.258-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.062 seconds
+[2023-03-27T17:53:29.521-0400] {processor.py:153} INFO - Started process (PID=5488) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:53:29.522-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:53:29.523-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:53:29.523-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:53:29.540-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:53:29.554-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:53:29.554-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:53:29.567-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:53:29.566-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:53:29.578-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T17:54:12.017-0400] {processor.py:153} INFO - Started process (PID=5531) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:54:12.018-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:54:12.019-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:54:12.019-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:54:12.035-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:54:12.049-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:54:12.048-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:54:12.062-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:54:12.062-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:54:12.073-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.060 seconds
+[2023-03-27T17:54:52.105-0400] {processor.py:153} INFO - Started process (PID=5572) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:54:52.107-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:54:52.108-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:54:52.108-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:54:52.124-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:54:52.138-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:54:52.137-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:54:52.151-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:54:52.151-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:54:52.161-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.059 seconds
+[2023-03-27T17:55:32.227-0400] {processor.py:153} INFO - Started process (PID=5615) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:55:32.228-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:55:32.229-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:55:32.229-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:55:32.246-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:55:32.259-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:55:32.259-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:55:32.272-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:55:32.272-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:55:32.282-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.059 seconds
+[2023-03-27T17:56:20.595-0400] {processor.py:153} INFO - Started process (PID=5665) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:56:20.597-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:56:20.598-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:20.598-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:56:20.614-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:56:20.627-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:20.627-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:56:20.641-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:20.641-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:56:20.655-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.064 seconds
+[2023-03-27T17:56:52.111-0400] {processor.py:153} INFO - Started process (PID=5724) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:56:52.113-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:56:52.115-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:52.114-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:56:52.134-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:56:52.150-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:52.150-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:56:52.164-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:56:52.164-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:56:52.174-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.067 seconds
+[2023-03-27T17:57:30.183-0400] {processor.py:153} INFO - Started process (PID=5794) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:57:30.185-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:57:30.187-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:57:30.186-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:57:30.204-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:57:30.220-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:57:30.220-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:57:30.235-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:57:30.235-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:57:30.246-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.067 seconds
+[2023-03-27T17:58:10.096-0400] {processor.py:153} INFO - Started process (PID=5870) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:58:10.098-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:58:10.099-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:10.099-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:58:10.112-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:58:10.126-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:10.125-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:58:10.140-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:10.139-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:58:10.151-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.057 seconds
+[2023-03-27T17:58:52.091-0400] {processor.py:153} INFO - Started process (PID=5936) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:58:52.093-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:58:52.095-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:52.095-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:58:52.116-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:58:52.134-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:52.133-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:58:52.148-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:58:52.148-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:58:52.159-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.073 seconds
+[2023-03-27T17:59:33.374-0400] {processor.py:153} INFO - Started process (PID=5985) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:59:33.376-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T17:59:33.378-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:59:33.377-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:59:33.396-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T17:59:33.412-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:59:33.412-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T17:59:33.426-0400] {logging_mixin.py:137} INFO - [2023-03-27T17:59:33.426-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T17:59:33.436-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.067 seconds
+[2023-03-27T18:00:15.216-0400] {processor.py:153} INFO - Started process (PID=6043) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:00:15.218-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T18:00:15.219-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:15.219-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:00:15.236-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:00:15.251-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:15.251-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T18:00:15.266-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:15.265-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T18:00:15.277-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.066 seconds
+[2023-03-27T18:00:56.371-0400] {processor.py:153} INFO - Started process (PID=6113) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:00:56.372-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T18:00:56.374-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:56.373-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:00:56.391-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:00:56.407-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:56.407-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T18:00:56.421-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:00:56.421-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T18:00:56.434-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.067 seconds
+[2023-03-27T18:01:40.135-0400] {processor.py:153} INFO - Started process (PID=6156) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:01:40.137-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T18:01:40.138-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:01:40.137-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:01:40.153-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:01:40.167-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:01:40.167-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T18:01:40.180-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:01:40.180-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T18:01:40.191-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.060 seconds
+[2023-03-27T18:02:23.907-0400] {processor.py:153} INFO - Started process (PID=6198) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:02:23.908-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T18:02:23.909-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:02:23.909-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:02:23.925-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:02:23.940-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:02:23.939-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T18:02:23.953-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:02:23.952-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T18:02:23.963-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.060 seconds
+[2023-03-27T18:03:03.024-0400] {processor.py:153} INFO - Started process (PID=6238) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:03:03.026-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T18:03:03.027-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:03:03.027-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:03:03.044-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:03:03.058-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:03:03.058-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T18:03:03.071-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:03:03.071-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T18:03:03.082-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.061 seconds
+[2023-03-27T18:03:43.165-0400] {processor.py:153} INFO - Started process (PID=6279) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:03:43.167-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T18:03:43.168-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:03:43.168-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:03:43.184-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:03:43.200-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:03:43.199-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T18:03:43.213-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:03:43.213-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T18:03:43.224-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.062 seconds
+[2023-03-27T18:04:16.551-0400] {processor.py:153} INFO - Started process (PID=6315) to work on /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:04:16.553-0400] {processor.py:743} INFO - Processing file /Users/srivardhan/airflow/dags/kafka-pipeline.py for tasks to queue
+[2023-03-27T18:04:16.554-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:04:16.553-0400] {dagbag.py:532} INFO - Filling up the DagBag from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:04:16.570-0400] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /Users/srivardhan/airflow/dags/kafka-pipeline.py
+[2023-03-27T18:04:16.583-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:04:16.583-0400] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-27T18:04:16.596-0400] {logging_mixin.py:137} INFO - [2023-03-27T18:04:16.596-0400] {dag.py:3444} INFO - Setting next_dagrun for producer to 2023-03-27T00:00:00+00:00, run_after=2023-03-28T00:00:00+00:00
+[2023-03-27T18:04:16.607-0400] {processor.py:175} INFO - Processing /Users/srivardhan/airflow/dags/kafka-pipeline.py took 0.060 seconds

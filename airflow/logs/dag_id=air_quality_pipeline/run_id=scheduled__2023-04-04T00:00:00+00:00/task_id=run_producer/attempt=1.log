@@ -1,0 +1,43 @@
+[2023-04-04T20:00:03.262-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: air_quality_pipeline.run_producer scheduled__2023-04-04T00:00:00+00:00 [queued]>
+[2023-04-04T20:00:03.270-0400] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: air_quality_pipeline.run_producer scheduled__2023-04-04T00:00:00+00:00 [queued]>
+[2023-04-04T20:00:03.270-0400] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-04T20:00:03.270-0400] {taskinstance.py:1283} INFO - Starting attempt 1 of 2
+[2023-04-04T20:00:03.270-0400] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-04T20:00:03.279-0400] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): run_producer> on 2023-04-04 00:00:00+00:00
+[2023-04-04T20:00:03.293-0400] {standard_task_runner.py:55} INFO - Started process 79943 to run task
+[2023-04-04T20:00:03.297-0400] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'air_quality_pipeline', 'run_producer', 'scheduled__2023-04-04T00:00:00+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/pipeline.py', '--cfg-path', '/var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T/tmp5orv9g_k']
+[2023-04-04T20:00:03.298-0400] {standard_task_runner.py:83} INFO - Job 94: Subtask run_producer
+[2023-04-04T20:00:03.328-0400] {task_command.py:388} INFO - Running <TaskInstance: air_quality_pipeline.run_producer scheduled__2023-04-04T00:00:00+00:00 [running]> on host srivardhans-air.starry-inc.net
+[2023-04-04T20:00:03.361-0400] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yourname
+AIRFLOW_CTX_DAG_ID=air_quality_pipeline
+AIRFLOW_CTX_TASK_ID=run_producer
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-04T00:00:00+00:00
+[2023-04-04T20:00:03.363-0400] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/8z/pwbx6b3n3mnd1g1f397fv1100000gn/T
+[2023-04-04T20:00:03.363-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 "/Users/srivardhan/Desktop/Masters/Masters Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py"']
+[2023-04-04T20:00:03.373-0400] {subprocess.py:86} INFO - Output:
+[2023-04-04T20:00:03.604-0400] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-04-04T20:00:03.605-0400] {subprocess.py:93} INFO -   File "/Users/srivardhan/Desktop/Masters/Masters Project/Kafka Implementation/kafka-pipeline-examples/producer-consumer/producer.py", line 6, in <module>
+[2023-04-04T20:00:03.605-0400] {subprocess.py:93} INFO -     producer = KafkaProducer(bootstrap_servers=['localhost:9092'],value_serializer=lambda x: dumps(x).encode('utf-8'))
+[2023-04-04T20:00:03.605-0400] {subprocess.py:93} INFO -   File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/kafka/producer/kafka.py", line 383, in __init__
+[2023-04-04T20:00:03.605-0400] {subprocess.py:93} INFO -     **self.config)
+[2023-04-04T20:00:03.606-0400] {subprocess.py:93} INFO -   File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/kafka/client_async.py", line 244, in __init__
+[2023-04-04T20:00:03.606-0400] {subprocess.py:93} INFO -     self.config['api_version'] = self.check_version(timeout=check_timeout)
+[2023-04-04T20:00:03.606-0400] {subprocess.py:93} INFO -   File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/kafka/client_async.py", line 900, in check_version
+[2023-04-04T20:00:03.606-0400] {subprocess.py:93} INFO -     raise Errors.NoBrokersAvailable()
+[2023-04-04T20:00:03.606-0400] {subprocess.py:93} INFO - kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2023-04-04T20:00:03.614-0400] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-04-04T20:00:03.621-0400] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/srivardhan/opt/anaconda3/envs/kafka-pipeline/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-04-04T20:00:03.623-0400] {taskinstance.py:1326} INFO - Marking task as UP_FOR_RETRY. dag_id=air_quality_pipeline, task_id=run_producer, execution_date=20230404T000000, start_date=20230405T000003, end_date=20230405T000003
+[2023-04-04T20:00:03.629-0400] {standard_task_runner.py:105} ERROR - Failed to execute job 94 for task run_producer (Bash command failed. The command returned a non-zero exit code 1.; 79943)
+[2023-04-04T20:00:03.670-0400] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-04T20:00:03.685-0400] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check
